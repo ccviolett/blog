@@ -15,25 +15,6 @@ export default defineUserConfig({
       })();
       `
     ],
-    [
-      'script', {}, `
-        function increaseFontSize() {
-          const allElements = document.querySelectorAll('p');
-          
-          for (let i = 0; i < allElements.length; i++) {
-            const style = window.getComputedStyle(allElements[i], null).getPropertyValue('font-size');
-            const fontSize = parseFloat(style); 
-
-            if (!isNaN(fontSize)) {
-              allElements[i].style.fontSize = (fontSize + 1) + 'px';
-            }
-          }
-        }
-
-        // 调用该函数以调整字体大小
-        increaseFontSize();
-      `
-    ],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     [
       "link",

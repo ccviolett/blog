@@ -1,27 +1,34 @@
 ---
-title: Vuepress
 icon: laptop-code
 category:
   - 使用指南
 ---
 
-### 坑
+# 通过 VuePress Hope 搭建一个属于你的博客
 
-#### Build
+## 创建项目
 
-```bash
-export NODE_OPTIONS=--max_old_space_size=4096
+```sh
+pnpm create vuepress-theme-hope my-docs
 ```
 
-### VuePress Theme Hope
+## 安装配置
 
-#### 安装配置
+进入博客的文件夹后，安装相关依赖 
 
 ```sh
 pnpm install -D chart.js echarts flowchart.ts katex @vue/repl reveal.js mermaid mathjax-full @waline/client
 ```
 
 在 `src/.vuepress/theme.ts` 中找到类似于 `install XXX before enabling it` 的内容，将其下的注释内容给打开。
+
+## 运行博客
+
+```sh
+pnpm run docs:dev
+```
+
+## 基础教程
 
 ::: important
 重要容器。

@@ -5,9 +5,4 @@ export default navbar([
   "/wiki/",
   "/posts/",
   "/subjects/",
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
 ]);

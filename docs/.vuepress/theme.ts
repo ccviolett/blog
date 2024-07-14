@@ -13,11 +13,11 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "logo.png",
 
-  repo: "ccviolett/ccvioBlog",
+  repo: "ccviolett/blog",
 
-  docsDir: "src",
+  docsDir: "docs",
 
   // navbar
   navbar,
@@ -28,13 +28,14 @@ export default hopeTheme({
   // encrypt
   encrypt,
 
-
   footer: "默认页脚",
 
   displayFooter: true,
 
   blog: {
-    description: "一个前端开发者",
+    name: "罗潇阳",
+    avatar: "logo.png",
+    description: "一个全栈开发者",
     intro: "/intro.html",
     medias: {
       BiliBili: "https://space.bilibili.com/25734964",
@@ -152,6 +153,7 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
+      spoiler: true,
       tabs: true,
       vPre: true,
 
