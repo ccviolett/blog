@@ -1,0 +1,407 @@
+{
+  "workspaces": {
+    "首页": {
+      "main": {
+        "id": "e9ad68fa955f46da",
+        "type": "split",
+        "children": [
+          {
+            "id": "90668e629a07dad2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ad13c582b58a37d4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "首页/HomePage-left.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "4eac2fb87fcbeb19",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e1e6c1a60c42bc5f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "首页/HomePage-right.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fa33a5b43020df91",
+        "type": "split",
+        "children": [
+          {
+            "id": "df01574bad1dab1a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a62fd305ccd5e37a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "4dd1d4185a5d0d19",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "3b6c0d0082ca5d36",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "246d0b52e7b3d867",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1888c7be6e522785",
+        "type": "split",
+        "children": [
+          {
+            "id": "e04f86d6b87265f7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4b8c519d6e37af",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "57e30c03712852ef",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "首页/HomePage-right.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "e761664bfa010f22",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-chat-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b86b41b68edaf790",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "c094c27adf7903ed",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "首页/HomePage-right.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ddc3c3735254d431",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "首页/HomePage-right.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "privacy-glasses:Toggle Privacy Glasses": false,
+          "zk-prefixer:创建时间戳笔记": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "random-note:开始漫游笔记": false,
+          "audio-recorder:开始/结束录音": false,
+          "command-palette:打开命令面板": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "switcher:打开快速切换": false,
+          "templates:插入模板": false,
+          "periodic-notes:Open today": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "e1e6c1a60c42bc5f"
+    },
+    "任务": {
+      "main": {
+        "id": "e9ad68fa955f46da",
+        "type": "split",
+        "children": [
+          {
+            "id": "90668e629a07dad2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ad13c582b58a37d4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "首页/所有未完成任务.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "31e3135cc41fc0ca",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "43f3313e9041581b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "未归类/任务.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fa33a5b43020df91",
+        "type": "split",
+        "children": [
+          {
+            "id": "df01574bad1dab1a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a62fd305ccd5e37a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "4dd1d4185a5d0d19",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "3b6c0d0082ca5d36",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "246d0b52e7b3d867",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1888c7be6e522785",
+        "type": "split",
+        "children": [
+          {
+            "id": "e04f86d6b87265f7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4b8c519d6e37af",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "57e30c03712852ef",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "首页/所有未完成任务.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "e761664bfa010f22",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-chat-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b86b41b68edaf790",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "c094c27adf7903ed",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "首页/所有未完成任务.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ddc3c3735254d431",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "首页/所有未完成任务.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "privacy-glasses:Toggle Privacy Glasses": false,
+          "zk-prefixer:创建时间戳笔记": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "random-note:开始漫游笔记": false,
+          "audio-recorder:开始/结束录音": false,
+          "command-palette:打开命令面板": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "switcher:打开快速切换": false,
+          "templates:插入模板": false,
+          "periodic-notes:Open today": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "ad13c582b58a37d4"
+    }
+  },
+  "active": "任务"
+}

@@ -1,0 +1,35 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "",
+    "template": "概念/模板/日记模板.md",
+    "folder": "概念/时间",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "",
+    "template": "概念/模板/周记模板.md",
+    "folder": "概念/时间",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "",
+    "folder": "概念/时间",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": "概念/时间",
+    "enabled": true
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": "概念/时间",
+    "enabled": true
+  }
+}

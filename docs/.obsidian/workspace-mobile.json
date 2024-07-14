@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "42cdad2766752223",
+    "type": "split",
+    "children": [
+      {
+        "id": "664c46598722726a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8927fcd4da68daf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e5328ec0c5766798",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "987fb893f0130e5c",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byModifiedTime"
+          }
+        }
+      },
+      {
+        "id": "4d4ff608accf2b73",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "材料力学",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "87141ad303f7e7fa",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "4f08ce69715e5267",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      },
+      {
+        "id": "909c95a79e770629",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "baa21990dd98e9d3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7a76b3cee182713a",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": true,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6079a417078c6caa",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a7dfe304e27d94ea",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      },
+      {
+        "id": "32e168b3d0d80a62",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "privacy-glasses:Toggle Privacy Glasses": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "c8927fcd4da68daf",
+  "lastOpenFiles": [
+    "概念/学科/商务英语/商务英语专业术语考试范围.md",
+    "概念/学科/材料力学/任意方向的线应变的应用.md",
+    "概念/学科/材料力学/材料力学.md",
+    "概念/学科/材料力学/临界压力.md",
+    "概念/学科/材料力学/柔度.md",
+    "概念/学科/材料力学/压杆稳定.md",
+    "概念/学科/材料力学/临界应力.md",
+    "未归类/压杆稳定校核.md",
+    "概念/学科/材料力学/失稳.md",
+    "概念/学科/材料力学/直线经验公式.md",
+    "概念/学科/材料力学/弯曲正应力.md",
+    "概念/学科/材料力学/欧拉公式.md",
+    "未归类/临界压力.md",
+    "未归类/压杆稳定.md",
+    "未归类/欧拉公式.md",
+    "未归类/直线经验公式.md",
+    "未归类/临界应力.md",
+    "未归类/柔度.md",
+    "未归类/失稳.md",
+    "未归类/2023-05-13-节能减排校决赛答辩.md",
+    "概念/学科/液压气动技术/阀/单向阀.md",
+    "未归类/2023-05-13-风泽中孚-红挑-任务一：政策解读与项目立项.md",
+    "概念/学科/液压气动技术/阀/截止阀.md",
+    "未归类/气动三大件.md",
+    "文案/课程/信息竞赛/快速幂.md",
+    "未归类/2023-05-13-风泽中孚-挑战-资料-每日一报.md",
+    "概念/学科/液压气动技术/液压气动技术.canvas",
+    "概念/学科/材料力学/材料力学.canvas",
+    "概念/学科/交叉学科",
+    "概念/学科/工程材料/工程材料 第一章 金属材料性能.canvas",
+    "概念/学科/工程材料/工程材料.canvas",
+    "概念/学科/工程材料/工程材料 第五章 常用工程材料.canvas",
+    "概念/学科/工程材料/工程材料 第八章 焊接.canvas",
+    "概念/学科/工程材料/工程材料 第四章 刚的热处理.canvas",
+    "概念/学科/工程材料/工程材料 第七章 金属的塑性成型.canvas",
+    "概念/学科/工程材料/工程材料 第三章 金属的相变和相图.canvas",
+    "工程材料 第八章 焊接.canvas",
+    "概念/人物/output.csv"
+  ]
+}
