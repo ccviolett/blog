@@ -33,5 +33,7 @@ export default sidebar({
     clink("工程测试技术", "book", "ET"),
     clink("互换性原理", "book", "CG"),
     clink("机械设计", "book", "MD"),
+    clink("计算机集成制造系统", "book", "CIMS"),
+    clink("机器人技术基础", "book", "RT"),
   ]
 });
