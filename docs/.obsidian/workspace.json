@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2f8a4bc66a9a8455",
+        "id": "e11cceb392b02cfb",
         "type": "tabs",
         "children": [
           {
-            "id": "7bc6d0bc41220785",
+            "id": "fd42f48469482ed2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/page.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b85c1d75b492e101",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "subjects/PEM/202401142336.md",
+                "file": "未归类/steam.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -53,7 +39,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "你们这些",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.50390243530273
+    "width": 210.5
   },
   "right": {
     "id": "1888c7be6e522785",
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "subjects/PEM/202401142336.md",
+                "file": "未归类/steam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "subjects/PEM/202401142336.md"
+                "file": "未归类/steam.md"
               }
             }
           },
@@ -157,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "subjects/PEM/202401142336.md",
+                "file": "未归类/steam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -206,63 +192,63 @@
       "switcher:打开快速切换": false,
       "templates:插入模板": false,
       "workspaces:管理工作区布局": false,
-      "canvas:新建白板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "privacy-glasses:Toggle Privacy Glasses": false,
+      "canvas:新建白板": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "b85c1d75b492e101",
+  "active": "fd42f48469482ed2",
   "lastOpenFiles": [
-    "subjects/PEM/202401142342.md",
-    "subjects/PEM/202401131254.md",
-    "subjects/PEM/202401142336.md",
-    "subjects/PEM/README.md",
-    "exams/PE/README.md",
-    "wiki/page.md",
-    "subjects/PEM",
-    "202401131255.md",
-    "exams",
-    "exams/PE",
-    "subjects/CE/test/neuq/2023-2024-F.md",
-    "subjects/CE/test/README.md",
-    "subjects/CE/README.md",
-    "subjects/ET/README.md",
-    "subjects/IM/README.md",
-    "README.pdf",
-    "subjects/IM/_images/截屏2023-12-27 15.57.40.png",
-    "subjects/IM/_images/截屏2023-12-27 15.57.27.png",
-    "subjects/IM/_images/截屏2023-12-27 15.57.12.png",
-    "subjects/IM/_images/截屏2023-12-27 15.57.00.png",
-    "subjects/IM/_images/截屏2023-12-27 15.56.45.png",
-    "subjects/IM/_images/截屏2023-12-27 15.56.36.png",
-    "subjects/IM/_images/截屏2023-12-27 15.56.16.png",
-    "subjects/IM/_images/截屏2023-12-27 15.56.04.png",
-    "subjects/IM/_images/截屏2023-12-27 15.55.48.png",
-    "subjects/IM/_images/截屏2023-12-27 15.55.19.png",
-    "subjects/IM/_images",
-    "未命名.md",
-    "subjects/MM/README.md",
-    "subjects/MD/README.md",
-    "subjects/FM/trigonometric_function.md",
-    "subjects/FM/README.md",
-    "subjects/MD/notes/_images/5.md",
-    "subjects/MD/notes/_images",
-    "subjects/MD/notes/5.md",
-    "subjects/MD/notes/4.md",
-    "subjects/MD/notes/3.md",
-    "subjects/MD/notes",
-    "subjects/MD/0-intro.md",
-    "subjects/MD",
-    "subjects/IM",
-    "subjects/ET/homework/README.md",
-    "subjects/ET/homework/_images",
-    "subjects/ET/2-test_system.md",
-    "subjects/ET/test/neuq/2023-2024-1.md",
-    "subjects/ET/test/README.md",
-    "机械工程测试技术思维导图.canvas",
+    "未归类/202407070009.md",
+    "未归类/steam.md",
+    "未归类/steamDB.md",
+    "未归类/202406292221.md",
+    "未归类/202406252212.md",
+    "未归类/202406161525.md",
+    "未归类/202406101547.md",
+    "概念/产品/写作网站.md",
+    "未归类/未命名 17.md",
+    "信息竞赛出题/未命名.md",
+    "未归类/202406101544.md",
+    "报告/和宝宝的月报.md",
+    "未归类/zsh.md",
+    "未归类/202406021806.md",
+    "未归类/VS Code.md",
+    "未归类/202405171104.md",
+    "未归类/202405161427.md",
+    "未归类/git 常见问题.md",
+    "未归类/Git.md",
+    "未归类/Python.md",
+    "未归类/tmux.md",
+    "未归类/Django.md",
+    "写作/崎岖坎坷的快车道/崎岖坎坷的快车道.md",
+    "实习/未命名",
+    "实习/2024 年 5 月 14 日日报.md",
+    "实习/Notes/Jupyter Notebook 基础入门.md",
+    "实习/Essay/202405141508.md",
+    "实习/Notes",
+    "实习/Concept",
+    "实习/Essay",
+    "写作/崎岖坎坷的快车道/章 面试、考试、离校",
+    "写作/崎岖坎坷的快车道/章 竞赛",
+    "写作/崎岖坎坷的快车道/章 高考",
+    "实习",
+    "未归类/附件/截屏2024-05-08 13.09.00.png",
+    "未归类/附件/截屏2024-05-06 17.58.40.png",
+    "机器人/报告/附件/截屏2024-04-22 22.26.43.png",
+    "机器人/报告/附件/截屏2024-04-22 22.26.26.png",
+    "机器人/报告/附件/截屏2024-04-22 22.26.00.png",
+    "机器人/报告/附件/截屏2024-04-22 14.40.44.png",
+    "机器人/报告/附件/截屏2024-04-21 21.54.31.png",
+    "机器人/报告/附件",
+    "机器人/报告",
+    "机器人/附件/Matlab 水平运动仿真图.png",
+    "机器人/附件/水平直线运动过程.png",
+    "机器人/附件/Matlab 竖向运动仿真图.png",
+    "技术学习路线.canvas",
     "学习路线.canvas",
-    "未命名.canvas",
+    "机械工程测试技术思维导图.canvas",
     "概念/产品/风泽中孚/风泽中孚 2023 年 4 月团队招新兼挑战杯红色专项招新.canvas",
     "概念/产品/风泽中孚/2023 挑战杯红色专项思维导图.canvas",
     "爱情.canvas",
