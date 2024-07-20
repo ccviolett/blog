@@ -115,7 +115,9 @@ export default hopeTheme({
       gfm: true,
 
       imgLazyload: true,
+      imgMark: true,
       imgSize: true,
+
       include: true,
 
       // install katex before enabling it

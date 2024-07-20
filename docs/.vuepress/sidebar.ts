@@ -35,5 +35,6 @@ export default sidebar({
     clink("机械设计", "book", "MD"),
     clink("计算机集成制造系统", "book", "CIMS"),
     clink("机器人技术基础", "book", "RT"),
+    clink("考研数学", "book", "PEM"),
   ]
 });
