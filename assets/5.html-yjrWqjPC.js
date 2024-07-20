@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{o as c,c as o,a as t}from"./app-CMSdykk-.js";const n={},s=t("div",{class:"hint-container tip"},[t("p",{class:"hint-container-title"},"螺栓的变形协调条件")],-1),_=[s];function a(r,i){return c(),o("div",null,_)}const f=e(n,[["render",a],["__file","5.html.vue"]]);export{f as default};
