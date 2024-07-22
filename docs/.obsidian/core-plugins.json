@@ -17,5 +17,6 @@
   "outline",
   "audio-recorder",
   "workspaces",
-  "file-recovery"
+  "file-recovery",
+  "sync"
 ]

@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2f8a4bc66a9a8455",
+        "id": "73cba6f3c4f6b41d",
         "type": "tabs",
         "children": [
           {
-            "id": "7bc6d0bc41220785",
+            "id": "69c6b15f51a27345",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/page.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b85c1d75b492e101",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "subjects/PEM/202401142336.md",
+                "file": "posts/personal/10_my_super_lady.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "subjects/PEM/202401142336.md",
+                "file": "posts/personal/10_my_super_lady.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "subjects/PEM/202401142336.md"
+                "file": "posts/personal/10_my_super_lady.md"
               }
             }
           },
@@ -157,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "subjects/PEM/202401142336.md",
+                "file": "posts/personal/10_my_super_lady.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,14 +198,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b85c1d75b492e101",
+  "active": "69c6b15f51a27345",
   "lastOpenFiles": [
+    "posts/personal/_images/WechatIMG148.jpg",
+    "posts/personal/_images/WechatIMG147.jpg",
+    "posts/personal/_images/WechatIMG146.jpg",
+    "posts/personal/_images",
+    "posts/personal/附件/WechatIMG147.jpg",
+    "posts/personal/附件/WechatIMG148.jpg",
+    "posts/personal/附件/WechatIMG146.jpg",
+    "posts/personal/附件",
+    "posts/personal/20_super_me.md",
+    "subjects/PEM/problems/202401142342.md",
+    "wiki/page.md",
+    "posts/personal/10_my_super_lady.md",
+    "posts/personal",
+    "subjects/PEM/notes/one_page_solve_all_matix.md",
     "subjects/PEM/202401142342.md",
     "subjects/PEM/202401131254.md",
     "subjects/PEM/202401142336.md",
     "subjects/PEM/README.md",
     "exams/PE/README.md",
-    "wiki/page.md",
     "subjects/PEM",
     "202401131255.md",
     "exams",
@@ -235,11 +234,6 @@
     "subjects/IM/_images/截屏2023-12-27 15.57.12.png",
     "subjects/IM/_images/截屏2023-12-27 15.57.00.png",
     "subjects/IM/_images/截屏2023-12-27 15.56.45.png",
-    "subjects/IM/_images/截屏2023-12-27 15.56.36.png",
-    "subjects/IM/_images/截屏2023-12-27 15.56.16.png",
-    "subjects/IM/_images/截屏2023-12-27 15.56.04.png",
-    "subjects/IM/_images/截屏2023-12-27 15.55.48.png",
-    "subjects/IM/_images/截屏2023-12-27 15.55.19.png",
     "subjects/IM/_images",
     "未命名.md",
     "subjects/MM/README.md",
@@ -252,14 +246,6 @@
     "subjects/MD/notes/4.md",
     "subjects/MD/notes/3.md",
     "subjects/MD/notes",
-    "subjects/MD/0-intro.md",
-    "subjects/MD",
-    "subjects/IM",
-    "subjects/ET/homework/README.md",
-    "subjects/ET/homework/_images",
-    "subjects/ET/2-test_system.md",
-    "subjects/ET/test/neuq/2023-2024-1.md",
-    "subjects/ET/test/README.md",
     "机械工程测试技术思维导图.canvas",
     "学习路线.canvas",
     "未命名.canvas",

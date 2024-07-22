@@ -88,6 +88,13 @@ export default hopeTheme({
       serverURL: "https://waline-comment.vuejs.press",
     },
 
+    components: {
+      // 你想使用的组件
+      components: [
+        "BiliBili",
+      ],
+    },
+
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
@@ -115,7 +122,9 @@ export default hopeTheme({
       gfm: true,
 
       imgLazyload: true,
+      imgMark: true,
       imgSize: true,
+
       include: true,
 
       // install katex before enabling it
