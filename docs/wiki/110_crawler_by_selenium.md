@@ -3,7 +3,7 @@ icon: spider
 order: 110
 ---
 
-# 基于 Selenium 的全能爬虫指南
+# Selenium 全能爬虫指南
 
 
 ## 功能实现

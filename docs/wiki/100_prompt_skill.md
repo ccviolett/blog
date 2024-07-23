@@ -3,7 +3,7 @@ icon: rocket
 order: 100
 ---
 
-# 非 Prompt 层面大模型优化技巧
+# 非 Prompt 大模型优化技巧
 
 ## 轮询
 

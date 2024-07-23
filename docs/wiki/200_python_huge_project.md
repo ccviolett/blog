@@ -1,6 +1,5 @@
 ---
 order: 200
-icon: python
 ---
 
 # Python 大型项目开发

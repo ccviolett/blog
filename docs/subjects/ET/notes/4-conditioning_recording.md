@@ -154,7 +154,7 @@ $$
 ### 调制信号的计算
 
 ::: note 常用三角公式
-<!-- @include: ../FM/trigonometric_function.md#sp -->
+<!-- @include: ../../FM/trigonometric_function.md#sp -->
 :::
 
 :::: details 例题

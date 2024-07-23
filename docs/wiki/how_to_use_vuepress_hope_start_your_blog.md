@@ -4,7 +4,7 @@ category:
   - 使用指南
 ---
 
-# 通过 VuePress Hope 搭建一个属于你的博客
+# VuePress Hope 博客搭建指南
 
 ## 创建项目
 
