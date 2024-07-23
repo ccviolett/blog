@@ -1,0 +1,7 @@
+- 数据分析：pandas + numpy + matplotlib
+- 机器学习：sklearn
+- 深度学习：pytorch
+- 爬虫：beautifulsoap4
+- 网络框架：fastapi
+- 大数据：pyspark
+- 图数据库：py2neo
