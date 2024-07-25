@@ -1,0 +1,1 @@
+import{_}from"./plugin-vue_export-helper-DlAUqK2U.js";import{o as e,c as t,a as o}from"./app-D5ExZMHw.js";const c={},s=o("p",null,"如何低迁移成本、学习成本",-1),n=[s];function r(a,l){return e(),t("div",null,n)}const m=_(c,[["render",r],["__file","低成本大模型方案的探索.html.vue"]]);export{m as default};

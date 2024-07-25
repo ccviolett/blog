@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-DlAUqK2U.js";import{o as a,c as o,a as e,b as r}from"./app-D5ExZMHw.js";const c={},n=e("h1",{id:"考试相关",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#考试相关","aria-hidden":"true"},"#"),r(" 考试相关")],-1),s=[n];function _(d,i){return a(),o("div",null,s)}const f=t(c,[["render",_],["__file","index.html.vue"]]);export{f as default};
