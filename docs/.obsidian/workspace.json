@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0b8e8263f0961f4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/110_crawler_by_selenium.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/200_python_huge_project.md",
+                "file": "wiki/110_crawler_by_selenium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/200_python_huge_project.md"
+                "file": "wiki/110_crawler_by_selenium.md"
               }
             }
           },
@@ -143,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/200_python_huge_project.md",
+                "file": "wiki/110_crawler_by_selenium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,11 +212,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0cc3cfdf49bb9cd8",
+  "active": "0b8e8263f0961f4e",
   "lastOpenFiles": [
-    "wiki/120_tasks_by_celery.md",
-    "wiki/110_crawler_by_selenium.md",
+    "wiki/20_linux_assistant.md",
+    "wiki/30_centos_assistant.md",
+    "wiki/10_centos_assistant.md",
     "wiki/200_python_huge_project.md",
+    "wiki/110_crawler_by_selenium.md",
+    "wiki/120_tasks_by_celery.md",
     "wiki/300_django_skill_up.md",
     "wiki/210_lua_tricks.md",
     "wiki/markdown_best_practice.md",
@@ -235,9 +252,6 @@
     "exams",
     "exams/PE",
     "subjects/CE/test/neuq/2023-2024-F.md",
-    "subjects/CE/test/README.md",
-    "subjects/CE/README.md",
-    "subjects/ET/README.md",
     "README.pdf",
     "subjects/IM/_images/截屏2023-12-27 15.57.40.png",
     "subjects/IM/_images/截屏2023-12-27 15.57.27.png",

@@ -3,15 +3,13 @@ icon: terminal
 order: 20
 ---
 
-# 终端 zsh 配置安装教程
+# 通用 Linux 协助宝典
 
-## 一、安装 zsh
+## 终端配置
 
-通过 Linux 的包管理命令安装 zsh 即可
+### Zsh
 
-## 二、安装 Oh My Zsh
-
-通过以下的脚本一键安装。
+首先我们通过 Linux 的包管理命令安装 zsh，随后配置 `Oh My Zsh`，通过以下的脚本一键安装。
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -23,11 +21,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)"
 ```
 
-## 三、配置 zsh
-
-### 1. 安装 [[zsh-autosuggestions]]
-
-通过以下的脚本一键安装：
+随后我们安装一些常用的插件，如 zsh-autosuggestions，通过以下的脚本一键安装：
 
 ```sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -39,7 +33,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 plugins=(git zsh-autosuggestions)
 ```
 
-### 相关资料
+#### 相关资料
 
 - 官方网站：[Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh)
 - Github 项目：[GitHub - ohmyzsh/ohmyzsh: 🙃 A delightful community-driven (with 2,100+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.](https://github.com/ohmyzsh/ohmyzsh)

@@ -5,6 +5,11 @@ order: 110
 
 # Selenium 全能爬虫指南
 
+## 待整理
+
+```python
+wait.until(EC.url_changes(url))
+```
 
 ## 功能实现
 
@@ -96,6 +101,19 @@ BrowsermobProxy 是一个基于 Java11 的服务框架，我们首先要确保�
 我们可能以为可以通过其中 `postData.params` 的数据来发送 `requests` 请求，但是这是错误的。
 
 在 `requests` 中，我们需要转化为 K-V 形式的 `dict`，才能通过 `request.post(url, data=data)` 正确发送。
+
+## 抛弃 Seleinum
+
+Selenium 存在若干不便利的地方。
+
+	`undetected_chromedriver` 替代 Selenium
+
+程序需要放在 `if __name__ == '__main__':` 当中，否则会遇到 `freeze_support` 问题。
+
+### 参考资料
+
+- [用undetected_chromedriver代替selenium解决浏览器打不开网页_undetected-chromedriver加载浏览器报错-CSDN博客](https://blog.csdn.net/Scott0902/article/details/127024380)
+- [PyTorch：The “freeze_support()” line can be omitted if the program is not going to be frozen_the freeze support line-CSDN博客](https://blog.csdn.net/shenfuli/article/details/103969964)
 
 ## 相关资料
 
