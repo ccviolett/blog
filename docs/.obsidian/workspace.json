@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/200_python_huge_project.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b8e8263f0961f4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/110_crawler_by_selenium.md",
+                "file": "wiki/210_lua_skill_up.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.50390243530273
+    "width": 293.5
   },
   "right": {
     "id": "1888c7be6e522785",
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/110_crawler_by_selenium.md",
+                "file": "wiki/210_lua_skill_up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/110_crawler_by_selenium.md"
+                "file": "wiki/210_lua_skill_up.md"
               }
             }
           },
@@ -157,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/110_crawler_by_selenium.md",
+                "file": "wiki/210_lua_skill_up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,23 +198,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0b8e8263f0961f4e",
+  "active": "0cc3cfdf49bb9cd8",
   "lastOpenFiles": [
-    "wiki/20_linux_assistant.md",
-    "wiki/30_centos_assistant.md",
-    "wiki/10_centos_assistant.md",
-    "wiki/200_python_huge_project.md",
-    "wiki/110_crawler_by_selenium.md",
-    "wiki/120_tasks_by_celery.md",
+    "notes/Lua 混合编程.md",
+    "wiki/210_lua_skill_up.md",
     "wiki/300_django_skill_up.md",
-    "wiki/210_lua_tricks.md",
-    "wiki/markdown_best_practice.md",
-    "wiki/how_to_use_vuepress_hope_start_your_blog.md",
-    "wiki/20_oh_my_zsh.md",
-    "wiki/100_prompt_skill.md",
-    "links.md",
-    "intro.md",
-    "posts/personal/10_my_super_lady.md",
+    "wiki/310_prompt_skill.md",
+    "wiki/320_tasks_by_celery.md",
+    "wiki/340_web_api_by_drf.md",
+    "wiki/330_crawler_by_python.md",
+    "notes/Lua 基础入门.md",
+    "notes/LangChain 流式处理.md",
+    "notes/LangChain 基础入门.md",
+    "notes/Jupyter Notebook 基础入门.md",
+    "notes/LangChain 格式化输出 JSON 数据.md",
+    "notes/Github 常见需求命令.md",
+    "notes/通过弱密码自建热点完成的恶意缓存投毒攻击.md",
+    "notes/使用 StrictJson 使 LLM 严格输出 JSON.md",
+    "notes/基于 Python 的关键词匹配搜索框架.md",
+    "notes/Python 通过 Async 和 Await 实现异步协程.md",
+    "notes/Python 类型.md",
+    "notes/Python 测试.md",
+    "notes/Python 生态.md",
+    "notes/VS Code 配置.md",
+    "notes/Python 字符串处理.md",
+    "notes/Python dict 处理.md",
+    "notes/Python import.md",
+    "notes/Python Lambda.md",
+    "notes/Python list 处理.md",
+    "notes",
+    "reprint",
+    "wiki/_images/企业微信截图_17219745163624.png",
+    "wiki/_images",
     "posts/personal/_images/WechatIMG148.jpg",
     "posts/personal/_images/WechatIMG147.jpg",
     "posts/personal/_images/WechatIMG146.jpg",
@@ -237,29 +238,14 @@
     "posts/personal/附件/WechatIMG148.jpg",
     "posts/personal/附件/WechatIMG146.jpg",
     "posts/personal/附件",
-    "posts/personal/20_super_me.md",
-    "subjects/PEM/problems/202401142342.md",
-    "wiki/page.md",
     "posts/personal",
-    "subjects/PEM/notes/one_page_solve_all_matix.md",
-    "subjects/PEM/202401142342.md",
-    "subjects/PEM/202401131254.md",
-    "subjects/PEM/202401142336.md",
-    "subjects/PEM/README.md",
-    "exams/PE/README.md",
     "subjects/PEM",
-    "202401131255.md",
     "exams",
     "exams/PE",
-    "subjects/CE/test/neuq/2023-2024-F.md",
     "README.pdf",
     "subjects/IM/_images/截屏2023-12-27 15.57.40.png",
     "subjects/IM/_images/截屏2023-12-27 15.57.27.png",
     "subjects/IM/_images/截屏2023-12-27 15.57.12.png",
-    "subjects/IM/_images/截屏2023-12-27 15.57.00.png",
-    "subjects/IM/_images",
-    "subjects/MD/notes/_images",
-    "subjects/MD/notes",
     "机械工程测试技术思维导图.canvas",
     "学习路线.canvas",
     "未命名.canvas",

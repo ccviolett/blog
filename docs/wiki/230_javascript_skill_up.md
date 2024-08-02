@@ -1,4 +1,13 @@
-# 使用 NodeJS 需要注意些什么？
+---
+order: 230
+icon: computer
+---
+
+# Javascript 技能精进
+
+## 常见错误
+
+### NodeJS 内存限制错误
 
 在使用 `build` 项目之前，先把 `NodeJS` 的内存限制开大，否则可能会出现未知错误。
 

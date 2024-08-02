@@ -14,7 +14,7 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
+      text: "我的 Wiki",
       icon: "laptop-code",
       prefix: "wiki/",
       link: "wiki/",

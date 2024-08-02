@@ -1,3 +1,12 @@
+---
+order: 340
+icon: cube
+---
+
+# DRF 开发 Web API 基础
+
+Django REST framework (DRF) 是一个成熟的 Python 后端框架。
+
 ### 安装依赖
 
 通过 `pip install django-rest-framework` 安装支持 RESTful 风格 API 的组件。

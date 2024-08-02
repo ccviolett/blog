@@ -1,6 +1,6 @@
 ---
-order: 120
-icon: bell
+order: 320
+icon: cube
 ---
 
 # 基于 Celery 的全能任务列表

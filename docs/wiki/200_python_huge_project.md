@@ -1,16 +1,29 @@
 ---
 order: 200
+icon: computer
 ---
 
 # Python 大型项目开发
 
 有一些 Python 的特性，只有当我们真正开发大型 Python 项目的时候，我们才能意识到他的重要性、意识到他存在的意义，而不是像在小型项目中一样只是炫技或者是玩具，比如“闭包”、“多线程”、”类型限制“等。
 
+## 绝对引用
+
+假设我们写了一个配置文件在代码目录下，并且在代码中通过 `./config.yaml` 读取并使用了，那么恭喜你，当你的程序放在服务器上被其他的服务调用的时候，就会发生错误。
+
+在代码中，对于所有引用文件都要使用“绝对调用”，保证在任何情况下调用我们的脚本都能够正常运行。
+
+```python
+import os
+script_dir = os.path.dirname(os.path.abspath(os.path.realpath(__file__)))
+config_file_path = os.path.join(script_dir, 'config.ini')
+```
+
 ## 多平台兼容
 
+路径分隔符使用 `os.sep`，而不是硬编码写死 `/` 或 `\`。
 
-- 路径分隔符 `os.sep`，而不是硬编码写死 `/` 或 `\`
-- 
+当然也可以使用 `os.path.join([path1, path2, path3])` 来实现。
 
 ## 抽象
 
@@ -45,6 +58,13 @@ b = B()
 b.test1()
 B.test2()
 ```
+
+### 参考资料
+
+- [python——class类和方法的用法详解_python class-CSDN博客](https://blog.csdn.net/qq_45779334/article/details/107858999)
+- [Python3之接口类（InterfaceClass）浅谈_python interface-CSDN博客](https://blog.csdn.net/qq_35844043/article/details/104862886)
+- [Python 函数装饰器 | 菜鸟教程 (runoob.com)](https://www.runoob.com/w3cnote/python-func-decorators.html)
+- [Python3之接口类（InterfaceClass）浅谈_python interface-CSDN博客](https://blog.csdn.net/qq_35844043/article/details/104862886)
 
 ## 闭包
 
@@ -281,5 +301,26 @@ my_dict = {
 }
 
 # 使用字典解包为关键字参数来创建对象
+my_object = MyClass(**my_dict)
+```
+
+但是上面这样的写法可能会存在问题，当 `my_dict` 中存在 `MyClass` 中未定义的 Key 时，就会发生 `TypeError`。
+
+为了避免这种情况发生，我们可以在 `MyClass` 的初始化函数 `__init__` 中，添加 `**kwargs` 作为缓冲。
+
+```python
+class MyClass:
+    def __init__(self, A, B, **kwargs):
+        self.A = A
+        self.B = B
+        self.extra_params = kwargs
+
+my_dict = {
+    "A": "a",
+    "B": "b",
+    "C": "c",
+    # ... 其他键值对
+}
+
 my_object = MyClass(**my_dict)
 ```

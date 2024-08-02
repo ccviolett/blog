@@ -1,6 +1,6 @@
 ---
-icon: spider
-order: 110
+order: 320
+icon: cube
 ---
 
 # Selenium 全能爬虫指南
@@ -11,7 +11,54 @@ order: 110
 wait.until(EC.url_changes(url))
 ```
 
+## 环境配置
+
+### 下载 Chrome 和 Chrome Driver
+
+虽然新版本的 `Selenium` 已经可以自动根据 Chrome 版本去下载对应的 Chrome Driver 了，但是这种便利也造成了一些问题，详见 [解决selenium新版启动缓慢 (卡住) 的问题_selenium chrome速度太慢-CSDN博客](https://blog.csdn.net/qq_50735685/article/details/137022098)。
+
+![博客截图](./_images/企业微信截图_17219745163624.png =x400)
+
+如果没有特殊情况的话，建议直接在 [Chrome for Testing availability (googlechromelabs.github.io)](https://googlechromelabs.github.io/chrome-for-testing/) 上下载配套版本的 Chrome 和 Chrome Driver。
+
+如果本地的环境比较老旧，无法正常运行最新的 Stable 版本，需要旧版本的，可以去[chromedriver.storage.googleapis.com/index.html](https://chromedriver.storage.googleapis.com/index.html)。
+
+如果发现下载旧版本的 Chrome 也无法运行（如 glibc 版本过低），那么可以从软件源下载可用的 Chrome、Chromium 后，根据下载的版本去找对应的 Chrome Driver（只要大版本对就可以用）。
+
+随后我们在初始化 `Selenium` 的时候指定 Chrome 和 Chrome Driver 的路径即可（如果 Chrome 使用的是系统默认的，可以不指定）
+
+```python
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+
+opt = Options()
+opt.binary_location = chrome_path
+service = Service(driver_path)
+driver = webdriver.Chrome(service=service, options=opt)
+```
+
 ## 功能实现
+
+### 随机 UA
+
+我们可以通过 `fake_useragent` 包来实现。
+
+```python
+from fake_useragent import UserAgent
+ua = UserAgent()
+headers = {
+	#ua.random 表示的时 随机生成一个User-Agent，这样的话我们就能有很多个 User-Agent 来使用，
+    #就不用再担心 被封ip了。
+	"User-Agent": ua.random,
+  "Accept" : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+}
+```
+
+#### 参考资料
+
+- [Python requests模块破解反爬虫_屏蔽 python-requests-CSDN博客](https://blog.csdn.net/qq_41945828/article/details/105173061)
+
 
 ### 截图
 
@@ -44,6 +91,10 @@ for cookie in cookies:
 ### 获取 input 标签类型
 
 可以通过 `item.get_attribute('attribute')` 来获取其 HTML 属性，故我们可以通过 `item.get_attribute('type')`来获取 input 的类型。
+
+## 网页内容分析
+
+我们通过 `Beautiful Soup` 来完成网页内容分析
 
 ## 网络请求 HAR 抓取
 

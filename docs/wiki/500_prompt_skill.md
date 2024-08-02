@@ -1,6 +1,6 @@
 ---
+order: 500
 icon: rocket
-order: 100
 ---
 
 # 非 Prompt 大模型优化技巧

@@ -1,3 +1,8 @@
+---
+order: 300
+icon: cube
+---
+
 # Django 技能精进
 
 ## Django RESTful Framework
@@ -19,5 +24,5 @@ def get_status_vulinfos(self, request, status_code):
 		return self.get_paginated_response(serializer.data)
 
 	serializer = VulInfoSerializer(vulinfos, many=True)
-	return Response(serializer.data, status=200
+	return Response(serializer.data, status=200)
 ```

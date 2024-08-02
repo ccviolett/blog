@@ -1,7 +1,6 @@
 ---
-icon: laptop-code
-category:
-  - 使用指南
+order: 410
+icon: folder-tree
 ---
 
 # VuePress Hope 博客搭建指南

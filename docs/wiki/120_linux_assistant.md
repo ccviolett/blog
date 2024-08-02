@@ -1,6 +1,6 @@
 ---
 icon: terminal
-order: 20
+order: 120
 ---
 
 # 通用 Linux 协助宝典
@@ -39,3 +39,17 @@ plugins=(git zsh-autosuggestions)
 - Github 项目：[GitHub - ohmyzsh/ohmyzsh: 🙃 A delightful community-driven (with 2,100+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.](https://github.com/ohmyzsh/ohmyzsh)
 - 国内配置：[oh-my-zsh 国内安装及配置 - 掘金](https://juejin.cn/post/7023578642156355592)
 - [zsh & oh-my-zsh 的配置与使用 - 知乎](https://zhuanlan.zhihu.com/p/58073103)
+
+## 常见操作
+
+### 输出重定向
+
+如果我们希望把一个命令在屏幕上输出的所有东西都记录到一个文件中去，我们可以使用输出重定向。
+
+```sh
+python main.py > run.log 2>&1
+```
+
+其中：
+- `>`：这个符号表示将命令的标准输出（stdout）重定向到一个文件。在这种情况下，将把脚本的输出重定向到名为 run.log 的文件。如果 run.log 文件不存在，它将被创建；如果已存在，它的内容将被覆盖。
+- `2>&1` 的意思是，将标准错误输出（stderr）重定向到与标准输出（stdout）相同的目标，也就是 run.log 文件。这样，无论是脚本的正常输出还是错误信息，都将被写入同一个文件 run.log
